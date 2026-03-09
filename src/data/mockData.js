@@ -1,0 +1,263 @@
+export const destinations = [
+    {
+        id: 1,
+        name: "Bali, Indonesia",
+        image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80",
+        shortDescription: "Discover tropical paradise with stunning temples, lush rice terraces, and pristine beaches.",
+        rating: 4.8,
+        country: "Indonesia",
+    },
+    {
+        id: 2,
+        name: "Paris, France",
+        image: "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=800&q=80",
+        shortDescription: "Experience the City of Light with its iconic landmarks, world-class cuisine, and romantic ambiance.",
+        rating: 4.9,
+        country: "France",
+    },
+    {
+        id: 3,
+        name: "Santorini, Greece",
+        image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80",
+        shortDescription: "Explore breathtaking sunsets, white-washed villages, and crystal-clear Aegean waters.",
+        rating: 4.7,
+        country: "Greece",
+    },
+    {
+        id: 4,
+        name: "Tokyo, Japan",
+        image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+        shortDescription: "Immerse yourself in a blend of ultra-modern technology and traditional Japanese culture.",
+        rating: 4.8,
+        country: "Japan",
+    },
+    {
+        id: 5,
+        name: "Maldives",
+        image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80",
+        shortDescription: "Relax in luxury overwater villas surrounded by turquoise lagoons and coral reefs.",
+        rating: 4.9,
+        country: "Maldives",
+    },
+    {
+        id: 6,
+        name: "Swiss Alps",
+        image: "https://images.unsplash.com/photo-1531366936337-7c912a4589a7?w=800&q=80",
+        shortDescription: "Adventure through majestic snow-capped peaks, charming villages, and scenic train rides.",
+        rating: 4.7,
+        country: "Switzerland",
+    },
+    {
+        id: 7,
+        name: "Dubai, UAE",
+        image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+        shortDescription: "Experience futuristic architecture, luxury shopping, and desert adventures in the Gulf.",
+        rating: 4.6,
+        country: "UAE",
+    },
+    {
+        id: 8,
+        name: "Rome, Italy",
+        image: "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+        shortDescription: "Walk through ancient history with the Colosseum, Vatican City, and authentic Italian cuisine.",
+        rating: 4.8,
+        country: "Italy",
+    },
+];
+
+export const tourPackages = [
+    {
+        id: 1,
+        name: "Bali Adventure Escape",
+        image: "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80",
+        duration: "7 Days / 6 Nights",
+        price: 1299,
+        shortDescription: "Explore Bali's hidden gems from ancient temples to pristine beaches.",
+        description:
+            "Embark on a 7-day journey through the heart of Bali. From the sacred monkey forest in Ubud to the stunning beaches of Nusa Dua, this package covers the best of what Bali has to offer. Enjoy a mix of adventure, culture, and relaxation with guided tours, spa treatments, and authentic local cuisine.",
+        highlights: [
+            "Visit the iconic Tanah Lot Temple at sunset",
+            "Explore the Tegallalang Rice Terraces",
+            "Snorkeling adventure at Nusa Penida",
+            "Traditional Balinese cooking class",
+            "Private villa with infinity pool",
+            "Guided tour of Ubud Monkey Forest",
+        ],
+        gallery: [
+            "https://images.unsplash.com/photo-1537996194471-e657df975ab4?w=800&q=80",
+            "https://images.unsplash.com/photo-1555400038-63f5ba517a47?w=800&q=80",
+            "https://images.unsplash.com/photo-1604999333679-b86d54738315?w=800&q=80",
+            "https://images.unsplash.com/photo-1573790387438-4da905039392?w=800&q=80",
+        ],
+    },
+    {
+        id: 2,
+        name: "European Grand Tour",
+        image: "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
+        duration: "14 Days / 13 Nights",
+        price: 3499,
+        shortDescription: "A complete European experience spanning Paris, Rome, and Santorini.",
+        description:
+            "This 14-day grand tour takes you across Europe's most iconic destinations. Start in the romantic streets of Paris, journey to the ancient wonders of Rome, and end with the stunning sunsets of Santorini. Each city offers curated experiences with handpicked hotels and guided excursions.",
+        highlights: [
+            "Skip-the-line Eiffel Tower access",
+            "Private guided Vatican Museum tour",
+            "Sunset sailing cruise in Santorini",
+            "Wine tasting in Tuscany",
+            "First-class train travel between cities",
+            "Michelin-star dining experience",
+        ],
+        gallery: [
+            "https://images.unsplash.com/photo-1499856871958-5b9627545d1a?w=800&q=80",
+            "https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=800&q=80",
+            "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80",
+            "https://images.unsplash.com/photo-1491557345352-5929e343eb89?w=800&q=80",
+        ],
+    },
+    {
+        id: 3,
+        name: "Maldives Luxury Retreat",
+        image: "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80",
+        duration: "5 Days / 4 Nights",
+        price: 2799,
+        shortDescription: "Ultimate luxury escape with overwater villas and private beaches.",
+        description:
+            "Indulge in 5 days of pure luxury in the Maldives. Stay in stunning overwater villas with glass floors, enjoy private beach dinners under the stars, and explore vibrant coral reefs. This package is perfect for couples seeking a romantic getaway or anyone looking for the ultimate relaxation experience.",
+        highlights: [
+            "Overwater villa with private pool",
+            "Sunset dolphin watching cruise",
+            "Private beach dinner experience",
+            "Scuba diving in coral gardens",
+            "Couples spa treatment package",
+            "Seaplane transfer from airport",
+        ],
+        gallery: [
+            "https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=800&q=80",
+            "https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=800&q=80",
+            "https://images.unsplash.com/photo-1540202404-a2f29016b523?w=800&q=80",
+            "https://images.unsplash.com/photo-1578922746465-3a80a228f223?w=800&q=80",
+        ],
+    },
+    {
+        id: 4,
+        name: "Japan Cultural Journey",
+        image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+        duration: "10 Days / 9 Nights",
+        price: 2199,
+        shortDescription: "Discover ancient traditions and modern wonders across Japan.",
+        description:
+            "Experience the perfect harmony of old and new Japan. This 10-day cultural journey takes you from the neon-lit streets of Tokyo to the serene bamboo forests of Kyoto, and the historic peace memorial of Hiroshima. Enjoy tea ceremonies, sushi-making classes, and bullet train rides across the country.",
+        highlights: [
+            "Stay in a traditional Ryokan inn",
+            "Guided walk through Arashiyama Bamboo Grove",
+            "Authentic sushi-making workshop",
+            "Bullet train experience (Shinkansen)",
+            "Visit Mount Fuji viewing points",
+            "Explore the Fushimi Inari Shrine",
+        ],
+        gallery: [
+            "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&q=80",
+            "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&q=80",
+            "https://images.unsplash.com/photo-1528360983277-13d401cdc186?w=800&q=80",
+            "https://images.unsplash.com/photo-1545569341-9eb8b30979d9?w=800&q=80",
+        ],
+    },
+    {
+        id: 5,
+        name: "Dubai City Explorer",
+        image: "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+        duration: "4 Days / 3 Nights",
+        price: 999,
+        shortDescription: "A thrilling city break packed with futuristic marvels and desert adventures.",
+        description:
+            "Discover the dazzling city of Dubai in just 4 action-packed days. From the world's tallest building to the vast Arabian desert, this package offers an unforgettable mix of luxury, adventure, and culture. Perfect for first-time visitors looking for a short but impactful getaway.",
+        highlights: [
+            "Burj Khalifa 'At the Top' tickets",
+            "Desert safari with BBQ dinner",
+            "Dhow cruise along Dubai Marina",
+            "Visit the Dubai Mall and Aquarium",
+            "Gold and Spice Souk walking tour",
+            "4-star hotel in Downtown Dubai",
+        ],
+        gallery: [
+            "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=800&q=80",
+            "https://images.unsplash.com/photo-1518684079-3c830dcef090?w=800&q=80",
+            "https://images.unsplash.com/photo-1580674684081-7617fbf3d745?w=800&q=80",
+            "https://images.unsplash.com/photo-1526495124232-a04e1849168c?w=800&q=80",
+        ],
+    },
+    {
+        id: 6,
+        name: "Greek Island Hopping",
+        image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80",
+        duration: "8 Days / 7 Nights",
+        price: 1899,
+        shortDescription: "Island-hop through the stunning Greek archipelago in the Aegean Sea.",
+        description:
+            "Explore the best of the Greek islands over 8 unforgettable days. Start in Athens, then ferry to Mykonos for vibrant nightlife, sail to Santorini for magical sunsets, and visit Crete for ancient history. Includes boutique hotel stays, ferry transfers, and guided tours at each stop.",
+        highlights: [
+            "Guided Acropolis tour in Athens",
+            "Catamaran sunset cruise in Santorini",
+            "Beach club day in Mykonos",
+            "Wine tasting on a Santorini vineyard",
+            "Visit the Palace of Knossos in Crete",
+            "All inter-island ferry transfers included",
+        ],
+        gallery: [
+            "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&q=80",
+            "https://images.unsplash.com/photo-1533105079780-92b9be482077?w=800&q=80",
+            "https://images.unsplash.com/photo-1504512485720-7d83a16ee930?w=800&q=80",
+            "https://images.unsplash.com/photo-1555993539-1732b0258235?w=800&q=80",
+        ],
+    },
+];
+
+export const testimonials = [
+    {
+        id: 1,
+        name: "Sarah Johnson",
+        avatar: "https://randomuser.me/api/portraits/women/44.jpg",
+        review:
+            "An absolutely magical experience! The Bali tour was perfectly organized and exceeded all our expectations. The guides were knowledgeable and the accommodations were top-notch.",
+        rating: 5,
+        location: "New York, USA",
+        tour: "Bali Adventure Escape",
+    },
+    {
+        id: 2,
+        name: "James Martinez",
+        avatar: "https://randomuser.me/api/portraits/men/32.jpg",
+        review:
+            "The European Grand Tour was the trip of a lifetime. Every detail was meticulously planned. The skip-the-line access at major attractions saved us so much time!",
+        rating: 5,
+        location: "Toronto, Canada",
+        tour: "European Grand Tour",
+    },
+    {
+        id: 3,
+        name: "Emily Chen",
+        avatar: "https://randomuser.me/api/portraits/women/68.jpg",
+        review:
+            "Our Maldives honeymoon was absolutely perfect. The overwater villa was stunning, the private dinner on the beach was so romantic. We will definitely book again!",
+        rating: 5,
+        location: "Sydney, Australia",
+        tour: "Maldives Luxury Retreat",
+    },
+    {
+        id: 4,
+        name: "David Kim",
+        avatar: "https://randomuser.me/api/portraits/men/75.jpg",
+        review:
+            "Japan blew my mind. From the precision of the bullet trains to the serenity of the temples, every day brought something new and exciting. Highly recommend!",
+        rating: 4,
+        location: "London, UK",
+        tour: "Japan Cultural Journey",
+    },
+];
+
+export const stats = [
+    { label: "Happy Travelers", value: "12K+" },
+    { label: "Tour Packages", value: "150+" },
+    { label: "Destinations", value: "50+" },
+    { label: "Years Experience", value: "10+" },
+];
